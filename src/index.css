@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 60% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 60% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 60% 15%;
+
+    /* Eko Bots Brand Colors */
+    --primary: 206 64% 29%; /* #16304d - Dark Blue */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 194 68% 46%; /* #24a2d1 - Bright Blue */
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 177 44% 39%; /* #5ea3a6 - Teal */
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 206 64% 29%;
+
+    --radius: 0.75rem;
+
+    /* Brand Gradients - Professional & Smooth */
+    --gradient-topbar: linear-gradient(90deg, hsl(206, 64%, 29%) 0%, hsl(200, 66%, 38%) 50%, hsl(194, 68%, 46%) 100%);
+    --gradient-hero-left: linear-gradient(135deg, hsl(200, 61%, 32%) 0%, hsl(203, 55%, 26%) 50%, hsl(207, 49%, 20%) 100%);
+    --gradient-hero-right: linear-gradient(135deg, hsl(45, 97%, 55%) 0%, hsl(32, 89%, 53%) 50%, hsl(19, 82%, 52%) 100%);
+    --gradient-impact: linear-gradient(135deg, hsl(45, 97%, 55%) 0%, hsl(32, 89%, 53%) 50%, hsl(19, 82%, 52%) 100%);
+    --gradient-donate: linear-gradient(135deg, hsl(206, 64%, 29%) 0%, hsl(200, 66%, 38%) 50%, hsl(194, 68%, 46%) 100%);
+    --gradient-footer-cta: linear-gradient(135deg, hsl(177, 44%, 25%) 0%, hsl(191, 56%, 35%) 50%, hsl(45, 97%, 55%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(45, 97%, 58%) 0%, hsl(32, 89%, 55%) 50%, hsl(19, 82%, 54%) 100%);
+    
+    /* Program Colors */
+    --color-stem: 195 70% 70%; /* #7bcce7 */
+    --color-mente: 167 39% 55%; /* #63b0a5 */
+    --color-universitario: 181 30% 52%; /* #5ea3a6 */
+    
+    /* Badge & Accent Colors */
+    --color-badge-green: 178 62% 18%; /* #124d4b */
+    --color-hashtag: 207 49% 20%; /* #162e4b */
+    --color-impact-bg: 46 92% 73%; /* #fadb77 semi-transparent */
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 206 64% 29%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 194 68% 46%;
+  }
+
+  .dark {
+    --background: 207 49% 20%;
+    --foreground: 0 0% 100%;
+
+    --card: 207 49% 20%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 207 49% 20%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 194 68% 46%;
+    --primary-foreground: 207 49% 20%;
+
+    --secondary: 206 64% 29%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 207 49% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 177 44% 39%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 207 49% 25%;
+    --input: 207 49% 25%;
+    --ring: 194 68% 46%;
+    
+    --sidebar-background: 207 49% 15%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 194 68% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 207 49% 20%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 207 49% 25%;
+    --sidebar-ring: 194 68% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  @keyframes gradient {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .animate-gradient {
+    animation: gradient 15s ease infinite;
+  }
+}
