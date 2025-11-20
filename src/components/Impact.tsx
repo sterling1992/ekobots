@@ -53,7 +53,7 @@ const Impact = () => {
         {/* Imagen de fondo difuminada */}
         <div className="absolute inset-0 overflow-hidden">
           <img 
-            src="public/3.JPG"
+            src="https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_3"
             alt="Jóvenes participantes de EKO"
             className="w-full h-full object-cover opacity-50 blur-[2px]"
           />

@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Imagen de fondo */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="public/8.JPG" 
+            src="https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_8" 
             alt="EKO BOTS Team" 
             className="w-full h-full object-cover"
           />

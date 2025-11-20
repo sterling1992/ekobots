@@ -71,7 +71,7 @@ const Nosotros = () => {
 								{/* Imagen dentro del contenedor */}
 								<div className="absolute inset-2 overflow-hidden shadow-2xl rounded-t-[173px] rounded-b-[183px]">
 									<img
-										src="/2.PNG"
+										src="https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_2"
 										alt="Participantes EKO - Niños y jóvenes levantando las manos en actividad STEM"
 										className="w-full h-full object-cover"
 									/>

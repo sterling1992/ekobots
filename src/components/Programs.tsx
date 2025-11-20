@@ -9,7 +9,7 @@ const Programs = () => {
       subtitle: "Ciencia y tecnología para transformar el futuro",
       description: "Formamos a niños, niñas y jóvenes en robótica, programación y pensamiento computacional, para que desarrollen su potencial y encuentren en la ciencia uy la tecnología un camino de transformación.",
       color: "#4DB8E8",
-      image: "public/4.JPG",
+      image: "https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_4",
       display_order: 1
     },
     {
@@ -18,7 +18,7 @@ const Programs = () => {
       subtitle: "Acompañamiento que inspira confianza y aprendizaje",
       description: "Un espacio de acompañamiento socioeconómico y educativo, que brinda tutorías y mentorías en áreas clave, fortalecimiento la confianza, el aprendizaje y el bienestar de los estudiantes.",
       color: "#5DBDA3",
-      image: "public/5.JPG",
+      image: "https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_5",
       display_order: 2
     },
     {
@@ -27,7 +27,7 @@ const Programs = () => {
       subtitle: "Puentes hacia la educación superior",
       description: "Programa que apoya a jóvenes para ingresar, permanecer y graduarse en la universidad, impulsando la primera generación de profesionales en sus familias y abriendo nuevas oportunidades.",
       color: "#3D7B7D",
-      image: "public/6.png",
+      image: "https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_6.jpg",
       display_order: 3
     }
   ]);

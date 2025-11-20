@@ -59,7 +59,7 @@ const Donate = () => {
           {/* Columna izquierda: Imagen */}
           <div className="relative flex items-end justify-center overflow-visible order-2 lg:order-1 h-full">
             <img
-              src="/7.png"
+              src="https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_7"
               alt="Joven EKO BOTS"
               className="
                 absolute bottom-0
