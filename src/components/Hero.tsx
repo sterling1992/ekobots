@@ -93,7 +93,7 @@ const Hero = () => {
                         <img
                           src="https://ekobots-images.s3.us-west-2.amazonaws.com/home_img_1.png"
                           alt="Robot Head"
-                          className="w-full h-full object-contain"
+                          className="object-contain w-[90px] h-[90px] lg:w-[120px] lg:h-[120px]"
                         />
                       </div>
                     </div>
