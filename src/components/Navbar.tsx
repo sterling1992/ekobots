@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="flex items-center h-20">
             <div className="flex-shrink-0 w-[280px]">
               <img 
-                src="public/Principal oscuro.png" 
+                src="https://ekobots-images.s3.us-west-2.amazonaws.com/navbar-logo.png" 
                 alt="EKO BOTS Logo" 
                 className="h-24  w-auto"
               />

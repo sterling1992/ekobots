@@ -73,7 +73,7 @@ const Footer = () => {
                 {/* Logo centrado */}
                 <div className="flex justify-center items-center">
                   <img 
-                    src="public/logo final.png" 
+                    src="https://ekobots-images.s3.us-west-2.amazonaws.com/footer-logo.png" 
                     alt="Logo EKO BOTS" 
                     className="w-64 h-auto"
                   />
